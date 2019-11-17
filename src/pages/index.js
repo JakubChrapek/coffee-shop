@@ -8,11 +8,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <FaCoffee size="5em" color="rebeccapurple" />
-
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>We will rock coffee here 🚀 </p>
+    <Link to="/page-2">
+      Click this coffee!
+      <FaCoffee size="5em" color="rebeccapurple" />
+    </Link>
   </Layout>
 )
 
