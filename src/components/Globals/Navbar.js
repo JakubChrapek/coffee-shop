@@ -46,7 +46,7 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={this.state.css}>
-          <ul className="navbar-nav mx-auto">
+          <ul className="navbar-nav">
             {this.state.links.map(link => {
               return (
                 <li key={link.id} className="nav-item ml-sm-5">
@@ -57,7 +57,7 @@ export default class Navbar extends Component {
               )
             })}
           </ul>
-          <FaCartArrowDown className="mr-sm-5 cart-icon" />
+          {/* <FaCartArrowDown className="mr-sm-5 cart-icon" /> */}
         </div>
       </nav>
     )
